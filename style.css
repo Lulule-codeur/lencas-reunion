@@ -345,4 +345,77 @@ p {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+/* --------------------
+   MOBILE OPTIMIZATION (AMÉLIORÉ)
+-------------------- */
+@media (max-width: 767px) {
+
+    /* Espaces plus respirants */
+    section {
+        padding: 4rem 1.2rem;
+    }
+
+    /* Titres plus élégants */
+    h2 {
+        font-size: 1.6rem;
+        line-height: 1.35;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.15rem;
+        text-align: center;
+    }
+
+    /* Texte plus lisible */
+    p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    /* HERO */
+    .hero {
+        min-height: 90vh;
+    }
+
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+    .slogan {
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 95px;
+    }
+
+    /* Cartes (events, experience, why, values) */
+    .card,
+    .step,
+    .why-item,
+    .value-item {
+        padding: 2rem 1.5rem;
+    }
+
+    /* Boutons plus confortables */
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        max-width: 320px;
+        margin: 0.5rem auto;
+        text-align: center;
+    }
+
+    /* FAQ */
+    .faq-item h3 {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .faq-item p {
+        text-align: left;
+    }
+}
 
